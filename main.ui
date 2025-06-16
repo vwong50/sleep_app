@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>360</width>
+    <height>780</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>360</width>
+    <height>780</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>360</width>
+    <height>780</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>360</width>
+    <height>780</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Prototype</string>
+  </property>
+  <widget class="QWidget" name="mainWidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <widget class="QStackedWidget" name="pagesWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>360</width>
+      <height>780</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>360</width>
+      <height>780</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>360</width>
+      <height>780</height>
+     </size>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="signUpPage">
+     <property name="minimumSize">
+      <size>
+       <width>360</width>
+       <height>780</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>360</width>
+       <height>780</height>
+      </size>
+     </property>
+     <widget class="QTabWidget" name="FormPage">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>360</width>
+        <height>780</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>360</width>
+        <height>780</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>360</width>
+        <height>780</height>
+       </size>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="Register">
+       <attribute name="title">
+        <string>Tab1</string>
+       </attribute>
+       <widget class="QWidget" name="formLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>374</width>
+          <height>737</height>
+         </rect>
+        </property>
+        <layout class="QFormLayout" name="formLayout">
+         <item row="0" column="0" colspan="2">
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <property name="topMargin">
+            <number>10</number>
+           </property>
+           <property name="bottomMargin">
+            <number>10</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="accessibleName">
+              <string>Text Label</string>
+             </property>
+             <property name="accessibleDescription">
+              <string>Enter your name</string>
+             </property>
+             <property name="text">
+              <string>Enter your name:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="newNameInput">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>256</width>
+               <height>32</height>
+              </size>
+             </property>
+             <property name="accessibleName">
+              <string>Text input field.</string>
+             </property>
+             <property name="accessibleDescription">
+              <string>Enter your name here</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="0" colspan="2">
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>10</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>10</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="minimumSize">
+              <size>
+               <width>360</width>
+               <height>16</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>360</width>
+               <height>16</height>
+              </size>
+             </property>
+             <property name="accessibleName">
+              <string>Text Label</string>
+             </property>
+             <property name="accessibleDescription">
+              <string>Enter a password</string>
+             </property>
+             <property name="text">
+              <string>Enter a password:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="newPasswordInput">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>256</width>
+               <height>32</height>
+              </size>
+             </property>
+             <property name="accessibleName">
+              <string>Input Field</string>
+             </property>
+             <property name="accessibleDescription">
+              <string>Enter your password here</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="maxLength">
+              <number>20</number>
+             </property>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignRight">
+            <widget class="QPushButton" name="nextPageButton">
+             <property name="maximumSize">
+              <size>
+               <width>125</width>
+               <height>64</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Continue</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="QuestionPage1">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <attribute name="title">
+        <string>Tab2</string>
+       </attribute>
+       <widget class="QWidget" name="formLayoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>-1</y>
+          <width>353</width>
+          <height>737</height>
+         </rect>
+        </property>
+        <layout class="QFormLayout" name="formLayout_2">
+         <item row="0" column="0" colspan="2">
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <property name="sizeConstraint">
+            <enum>QLayout::SetDefaultConstraint</enum>
+           </property>
+           <property name="leftMargin">
+            <number>5</number>
+           </property>
+           <property name="topMargin">
+            <number>10</number>
+           </property>
+           <property name="rightMargin">
+            <number>5</number>
+           </property>
+           <property name="bottomMargin">
+            <number>10</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="accessibleName">
+              <string>Text Label</string>
+             </property>
+             <property name="accessibleDescription">
+              <string>What is your sleep goal?</string>
+             </property>
+             <property name="text">
+              <string>What is your sleep goal?</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSpinBox" name="goalInput">
+             <property name="accessibleName">
+              <string>Number Input Field.</string>
+             </property>
+             <property name="accessibleDescription">
+              <string>Enter your sleep goal here.</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="0" colspan="2">
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <property name="leftMargin">
+            <number>5</number>
+           </property>
+           <property name="topMargin">
+            <number>10</number>
+           </property>
+           <property name="rightMargin">
+            <number>5</number>
+           </property>
+           <property name="bottomMargin">
+            <number>10</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="accessibleName">
+              <string>Text Label</string>
+             </property>
+             <property name="text">
+              <string>How many hours of sleep do you get a week?</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSpinBox" name="sleepInput">
+             <property name="accessibleName">
+              <string>Number Input Field</string>
+             </property>
+             <property name="accessibleDescription">
+              <string>Enter how many hours of sleep you get here.</string>
+             </property>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignRight">
+            <widget class="QPushButton" name="nextPageButton2">
+             <property name="maximumSize">
+              <size>
+               <width>125</width>
+               <height>64</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Continue</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="QuestionPage2">
+       <attribute name="title">
+        <string>Tab3</string>
+       </attribute>
+       <widget class="QWidget" name="formLayoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>374</width>
+          <height>737</height>
+         </rect>
+        </property>
+        <layout class="QFormLayout" name="formLayout_3">
+         <item row="0" column="0" colspan="2">
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <property name="topMargin">
+            <number>10</number>
+           </property>
+           <property name="bottomMargin">
+            <number>10</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_5">
+             <property name="text">
+              <string>In hours, how long is the gap between screen and sleep?</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSpinBox" name="spinBox">
+             <property name="accessibleName">
+              <string>Number input field.</string>
+             </property>
+             <property name="accessibleDescription">
+              <string>Enter the gap between screen time and bed time here.</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="0" colspan="2">
+          <layout class="QVBoxLayout" name="verticalLayout_7">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>10</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>10</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_6">
+             <property name="minimumSize">
+              <size>
+               <width>360</width>
+               <height>16</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>360</width>
+               <height>16</height>
+              </size>
+             </property>
+             <property name="accessibleName">
+              <string>Text Label</string>
+             </property>
+             <property name="accessibleDescription">
+              <string>What activities do you do to go to sleep?</string>
+             </property>
+             <property name="text">
+              <string>What activities do you do to go to sleep?:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QGridLayout" name="gridLayout">
+             <property name="topMargin">
+              <number>10</number>
+             </property>
+             <property name="bottomMargin">
+              <number>10</number>
+             </property>
+             <item row="1" column="0">
+              <widget class="QRadioButton" name="radioButtonPhone">
+               <property name="accessibleName">
+                <string>Radial </string>
+               </property>
+               <property name="accessibleDescription">
+                <string>Option 2. Phone</string>
+               </property>
+               <property name="text">
+                <string>Phone</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QRadioButton" name="radioButtonMeditating">
+               <property name="accessibleName">
+                <string>Radial Button 4</string>
+               </property>
+               <property name="accessibleDescription">
+                <string>Option 4. Meditating</string>
+               </property>
+               <property name="text">
+                <string>Meditating</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QRadioButton" name="radioButtonReading">
+               <property name="accessibleName">
+                <string>Radial Button 3</string>
+               </property>
+               <property name="accessibleDescription">
+                <string>Option 3. Reading</string>
+               </property>
+               <property name="text">
+                <string>Reading</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QRadioButton" name="radioButtonMusic">
+               <property name="accessibleName">
+                <string>Radial Button 1</string>
+               </property>
+               <property name="accessibleDescription">
+                <string>First Option. Option 1. Music or podcasts</string>
+               </property>
+               <property name="text">
+                <string>Music or podcasts</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QRadioButton" name="radioButtonNothing">
+               <property name="accessibleName">
+                <string>Radial Button 5</string>
+               </property>
+               <property name="accessibleDescription">
+                <string>Last Option. Option 5. Nothing. </string>
+               </property>
+               <property name="text">
+                <string>Nothing</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item alignment="Qt::AlignRight">
+            <widget class="QPushButton" name="signUpButton">
+             <property name="maximumSize">
+              <size>
+               <width>125</width>
+               <height>64</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Continue</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="signInPage">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>360</width>
+       <height>780</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>360</width>
+       <height>780</height>
+      </size>
+     </property>
+     <widget class="QWidget" name="formLayoutWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>64</y>
+        <width>374</width>
+        <height>194</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout_4">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>10</number>
+       </property>
+       <property name="bottomMargin">
+        <number>10</number>
+       </property>
+       <item row="0" column="0" colspan="2">
+        <layout class="QVBoxLayout" name="verticalLayout_8">
+         <property name="topMargin">
+          <number>10</number>
+         </property>
+         <property name="bottomMargin">
+          <number>10</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_7">
+           <property name="accessibleName">
+            <string>Text Label</string>
+           </property>
+           <property name="accessibleDescription">
+            <string>Enter your name</string>
+           </property>
+           <property name="text">
+            <string>Enter your name:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="nameInput">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>256</width>
+             <height>32</height>
+            </size>
+           </property>
+           <property name="accessibleName">
+            <string>Text input field.</string>
+           </property>
+           <property name="accessibleDescription">
+            <string>Enter your name here</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <layout class="QVBoxLayout" name="verticalLayout_9">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>10</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>10</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_8">
+           <property name="minimumSize">
+            <size>
+             <width>360</width>
+             <height>16</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>360</width>
+             <height>16</height>
+            </size>
+           </property>
+           <property name="accessibleName">
+            <string>Text Label</string>
+           </property>
+           <property name="accessibleDescription">
+            <string>Enter a password</string>
+           </property>
+           <property name="text">
+            <string>Enter a password:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="passwordInput">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>256</width>
+             <height>32</height>
+            </size>
+           </property>
+           <property name="accessibleName">
+            <string>Input Field</string>
+           </property>
+           <property name="accessibleDescription">
+            <string>Enter your password here</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="maxLength">
+            <number>20</number>
+           </property>
+          </widget>
+         </item>
+         <item alignment="Qt::AlignRight">
+          <widget class="QPushButton" name="signInButton">
+           <property name="maximumSize">
+            <size>
+             <width>125</width>
+             <height>64</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>Continue</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="overviewPage">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
