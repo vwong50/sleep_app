@@ -78,7 +78,7 @@
      <enum>QFrame::Box</enum>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="signUpPage">
      <property name="minimumSize">
@@ -216,6 +216,9 @@
            </property>
            <property name="maxLength">
             <number>20</number>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
            </property>
           </widget>
          </item>
@@ -638,6 +641,9 @@
          </property>
          <property name="maxLength">
           <number>20</number>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::Password</enum>
          </property>
         </widget>
        </item>
